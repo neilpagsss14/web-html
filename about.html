@@ -3,9 +3,10 @@
   <head>
     <style>
       .picture {
-        display: flex;
+        display: flexbox;
         margin-left: 5%;
         margin-top: 10%;
+        width: 35%;
         border-radius: 25px;
       }
       body {
@@ -21,11 +22,13 @@
         text-decoration: none;
         color: black;
         font-weight: bolder;
+        color: antiquewhite;
       }
       .textt {
         text-decoration: none;
         color: black;
         font-weight: bolder;
+        color: antiquewhite;
       }
       .text-button {
         color: black;
@@ -34,9 +37,18 @@
         margin-top: 75px;
       }
       .name {
-        color: grey;
+        color: black;
         font-size: 100px;
         font-weight: bolder;
+        font-family: monospace;
+      }
+      .info {
+        letter-spacing: 0.05em;
+        line-height: 2em;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif, "Lucida Sans", Arial,
+          sans-serif;
+        font-display: block;
       }
     </style>
     <meta charset="UTF-8" />
@@ -45,13 +57,19 @@
   </head>
   <body>
     <div class="column">
-      <img class="picture" src="./assets/sad.JPG" width="40%%" />
+      <img class="picture" src="./assets/sad.JPG" width="40%" />
       <div class="text-button">
         <a href="my-web.html" class="textt">HOME</a>
         <a href="about.html" class="text">ABOUT ME</a>
         <a href="" class="text">SPORTS</a>
-        <a href="" class="text">EDUCATION</a>
-        <a class="name">This is John Doe</a>
+        <a href="" class="text">WHAT MY COURSE ABOUT</a>
+        <a class="name">Hi I'm John Doe</a>
+        <p class="info">
+          Hello, I'm Neil, 21 years old Computer Engineering student from USTP.
+          I'm here at Fligno as intern and I want to immerse myself in this new
+          environment wherein I could enhance and hone my skills in programming
+          spcifically in Web Development.
+        </p>
       </div>
     </div>
   </body>
