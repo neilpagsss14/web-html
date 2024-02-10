@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+body {
+  background-color: #f7f7f2;
+  color: #1e1e24;
+}
+
+skills-body {
+  background-color: #f7f7f2;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+}
+.logo {
+  color: #1e1e24;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 16rem;
+}
+.logo:hover {
+  font-weight: bolder;
+  font-size: 1.75rem;
+}
+.navmenu {
+  display: flex;
+  text-decoration: none;
+}
+.navmenu a {
+  display: inline-block;
+  margin: 0 1.5rem;
+  color: #1e1e24;
+  font-weight: 500;
+  transition: all 0.6;
+  text-decoration: none;
+}
+.navmenu a:hover {
+  transform: translateY(-5px);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+
+.table {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+
+.container {
+  border: 2.5px solid #fff;
+  height: 12rem;
+  width: 15rem;
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 15px grey;
+  background-color: #1e1e24;
+}
+
+.container .info-2 {
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+  top: -2rem;
+  right: -4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.container .info2-2 {
+  position: relative;
+  right: -2.5rem;
+  top: -1.8rem;
+  color: rgb(97, 210, 230);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.box i {
+  padding: 0.1rem;
+  top: -1rem;
+  position: relative;
+  right: -1rem;
+  transition: scale 0.5s all ease-in-out;
+}
+
+.box i:hover {
+  scale: 1.2;
+}
+
+.box .name-language {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  bottom: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  position: relative;
+  justify-content: center;
+  font-size: 1rem;
+  right: -0.5rem;
+}
+
+.box .details {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  font-weight: 500;
+  top: -0.4rem;
+}
+
+.fa-html5 {
+  color: orangered;
+  font-size: 4rem;
+}
+
+.fa-css3-alt {
+  color: blue;
+  font-size: 4rem;
+}
+
+.fa-square-js {
+  color: yellow;
+  font-size: 4rem;
+}
+.fa-dev {
+  color: aqua;
+  font-size: 4rem;
+}
+
+.container-2 {
+  border: 2.5px solid #fff;
+  height: 12rem;
+  width: 15rem;
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 15px grey;
+  background-color: #1e1e24;
+}
+
+.container-2 .info-3 {
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+  top: -2rem;
+  right: -5rem;
+  left: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.box-2 i {
+  padding: 0.5rem;
+  top: -1rem;
+  position: relative;
+  right: -3.5rem;
+  transition: scale 0.5s all ease-in-out;
+}
+
+.box-2 i:hover {
+  scale: 1.2;
+}
+
+.box-2 .details {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  top: -0.5rem;
+  position: relative;
+}
+
+.box-2 .name-language {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+  bottom: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.fa-square-github {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.fa-git-alt {
+  color: rgb(241, 85, 13);
+  font-size: 4rem;
+}

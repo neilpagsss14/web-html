@@ -10,6 +10,10 @@ body {
   background-color: #f7f7f2;
   color: #1e1e24;
 }
+
+about-body {
+  background-color: #f7f7f2;
+}
 header {
   position: fixed;
   width: 100%;
@@ -53,12 +57,16 @@ header {
   align-items: center;
   padding: 2rem 5rem 0 18rem;
 }
-
 .home-img img {
   width: 100%;
   height: auto;
+  border-radius: 4rem;
 }
 
+.about-text h4 {
+  margin-left: 10rem;
+  position: relative;
+}
 .home-text h2 {
   font-size: 4rem;
   margin-bottom: 0.5rem;
