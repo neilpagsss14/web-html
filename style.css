@@ -72,6 +72,28 @@ header {
   margin-bottom: 0.5rem;
 }
 
+.home-text h2 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #1e1e24;
+  position: relative;
+}
+.home-text h2 span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #f7f7f2;
+  border-left: 1.5px solid #1e1e24;
+  animation: typing 1.5s steps(4) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 110%;
+    margin: 0 -35px 0 35px;
+  }
+}
 .home-text h3 {
   position: relative;
   padding-left: 5rem;
