@@ -50,6 +50,20 @@ header {
   transform: translateY(-5px);
 }
 
+.navmenu a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #1e1e24;
+  transition: all 0.5s ease;
+}
+.navmenu a:hover::after {
+  width: 95%;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
 
 .table {
