@@ -9,6 +9,8 @@
 body {
   background-color: #f7f7f2;
   color: #1e1e24;
+  max-width: 100%;
+  padding: 1rem 2rem;
 }
 
 about-body {
@@ -182,4 +184,54 @@ header {
   font-weight: 600;
   display: flex;
   align-items: center;
+}
+
+section .header {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #f7f7f2;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.features {
+  margin-top: 4rem;
+
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.features .card {
+  background-color: #1e1e24;
+  color: #f7f7f2;
+  padding: 1rem;
+  border-radius: 15px;
+  border: 5px solid transparent;
+  display: flex;
+  flex-direction: column;
+}
+.features .card:hover {
+  background: #f7f7f2;
+  color: #1e1e24;
+  transform: translateY(-15px);
+  border-color: #1e1e24;
+  border-width: 1px;
+}
+
+.features .card h4 {
+  font-size: 12px;
+  text-align: center;
+}
+
+.features .card h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  border-bottom: 2px dashed #f7f7f2;
+}
+
+.features .card p {
+  margin-bottom: 1rem;
 }
