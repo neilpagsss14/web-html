@@ -71,25 +71,25 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 10rem;
+  margin: 5rem 2rem;
+  justify-content: space-around;
 }
 
 .container {
-  border: 2.5px solid #fff;
-  height: 12rem;
-  width: 15rem;
-  padding: 3rem 3rem;
+  width: 20rem;
+  padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
   background-color: #1e1e24;
 }
 
 .container .info-2 {
-  color: #fff;
+  margin: 1rem 2rem;
+  color: #f7f7f2;
   font-size: 1.5rem;
   position: relative;
-  top: -2rem;
-  right: -4rem;
-  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: "Poppins";
   font-weight: 700;
 }
 
@@ -102,12 +102,21 @@ header {
   font-weight: 700;
 }
 
+.box {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .box i {
-  padding: 0.1rem;
+  max-width: fit-content;
   top: -1rem;
   position: relative;
-  right: -1rem;
+  text-align: center;
   transition: scale 0.5s all ease-in-out;
+  justify-content: center;
 }
 
 .box i:hover {
@@ -115,52 +124,49 @@ header {
 }
 
 .box .name-language {
-  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  position: absolute;
+  font-family: "Poppins" sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #f7f7f2;
   bottom: 1.5rem;
   display: flex;
   gap: 1.2rem;
   position: relative;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 1rem;
-  right: -0.5rem;
 }
 
 .box .details {
   color: #fff;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins";
   font-size: 14px;
   position: relative;
-  font-weight: 500;
-  top: -0.4rem;
 }
 
 .fa-html5 {
   color: orangered;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .fa-css3-alt {
   color: blue;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .fa-square-js {
   color: yellow;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 .fa-dev {
   color: aqua;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .container-2 {
-  border: 2.5px solid #fff;
-  height: 12rem;
-  width: 15rem;
-  padding: 3rem 3rem;
+  width: 20rem;
+  padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
   background-color: #1e1e24;
@@ -212,10 +218,10 @@ header {
 
 .fa-square-github {
   color: #fff;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 .fa-git-alt {
   color: rgb(241, 85, 13);
-  font-size: 4rem;
+  font-size: 5rem;
 }
