@@ -26,7 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem 8rem;
+  padding: 0.3rem 5rem;
 }
 .logo {
   /* max-width: 10%; */
@@ -44,11 +44,14 @@ header {
 }
 .navmenu a {
   display: inline-block;
+  align-items: center;
   margin: 0 1.5rem;
   color: #f7f7f2;
+  font-size: smaller;
   font-weight: 500;
   transition: all 0.6;
   text-decoration: none;
+  width: max-content;
 }
 .navmenu a:hover {
   transform: translateY(-5px);
@@ -75,11 +78,12 @@ header {
   justify-content: center;
   padding-top: 10rem;
   margin: 5rem 2rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .container {
-  width: 20rem;
+  width: 25%;
+  height: 25%;
   padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
@@ -87,39 +91,29 @@ header {
 }
 
 .container .info-2 {
-  margin: 1rem 2rem;
   color: #f7f7f2;
   font-size: 1.5rem;
   position: relative;
+  top: -2rem;
   text-align: center;
   font-family: "Poppins";
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.container .info2-2 {
-  position: relative;
-  right: -2.5rem;
-  top: -1.8rem;
-  color: rgb(97, 210, 230);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-.box {
+/* .box {
   display: flex;
   position: relative;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 .box i {
-  max-width: fit-content;
-  top: -1rem;
+  display: inline-grid;
+  padding: 0.5rem;
   position: relative;
-  text-align: center;
-  transition: scale 0.5s all ease-in-out;
-  justify-content: center;
+  /* right: -3.5rem; */
+  top: -1rem;
 }
 
 .box i:hover {
@@ -127,8 +121,6 @@ header {
 }
 
 .box .name-language {
-  display: flex;
-  position: absolute;
   font-family: "Poppins" sans-serif;
   font-weight: 700;
   color: #f7f7f2;
@@ -168,7 +160,8 @@ header {
 }
 
 .container-2 {
-  width: 20rem;
+  width: 25%;
+  height: 25%;
   padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
@@ -180,18 +173,17 @@ header {
   font-size: 1.5rem;
   position: relative;
   top: -2rem;
-  right: -5rem;
-  left: 3.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .box-2 i {
+  display: inline-grid;
   padding: 0.5rem;
-  top: -1rem;
   position: relative;
-  right: -3.5rem;
-  transition: scale 0.5s all ease-in-out;
+  /* right: -3.5rem; */
+  top: -1rem;
 }
 
 .box-2 i:hover {
@@ -201,21 +193,20 @@ header {
 .box-2 .details {
   color: #fff;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins";
   font-size: 14px;
-  top: -0.5rem;
   position: relative;
 }
 
 .box-2 .name-language {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-family: "Poppins";
+  font-weight: 500;
   color: #fff;
   bottom: 1.5rem;
   display: flex;
-  gap: 2rem;
+  gap: 1.2rem;
   position: relative;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 1rem;
 }
 
