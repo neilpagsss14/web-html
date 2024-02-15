@@ -76,14 +76,14 @@ header {
 .table {
   display: flex;
   justify-content: center;
-  padding-top: 10rem;
+  padding-top: 0.3rem;
   margin: 5rem 2rem;
   justify-content: space-evenly;
 }
 
 .container {
-  width: 25%;
-  height: 25%;
+  width: 35%;
+  height: 5%;
   padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
@@ -131,6 +131,11 @@ header {
   justify-content: space-evenly;
   font-size: 1rem;
 }
+.box .icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
 .box .details {
   color: #fff;
@@ -142,25 +147,25 @@ header {
 
 .fa-html5 {
   color: orangered;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .fa-css3-alt {
   color: blue;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .fa-square-js {
   color: yellow;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .fa-dev {
   color: aqua;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .container-2 {
-  width: 25%;
+  width: 35%;
   height: 25%;
   padding: 5rem 5rem;
   border-radius: 1rem;
@@ -176,6 +181,12 @@ header {
   text-align: center;
   font-family: "Poppins";
   font-weight: 500;
+}
+
+.box-2 .icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .box-2 i {
@@ -212,10 +223,10 @@ header {
 
 .fa-square-github {
   color: #fff;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 .fa-git-alt {
   color: rgb(241, 85, 13);
-  font-size: 5rem;
+  font-size: 3rem;
 }
