@@ -82,8 +82,8 @@ header {
 }
 
 .container {
-  width: 35%;
-  height: 5%;
+  width: 60vh;
+  height: 60vh;
   padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
@@ -100,19 +100,10 @@ header {
   font-weight: 500;
 }
 
-/* .box {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  justify-content: center;
-  grid-template-columns: repeat(4, 1fr);
-} */
-
 .box i {
   display: inline-grid;
   padding: 0.5rem;
   position: relative;
-  /* right: -3.5rem; */
   top: -1rem;
 }
 
@@ -133,8 +124,8 @@ header {
 }
 .box .icons {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap: 2rem;
 }
 
 .box .details {
@@ -165,12 +156,31 @@ header {
 }
 
 .container-2 {
-  width: 35%;
-  height: 25%;
+  width: 60vh;
+  height: 60vh;
   padding: 5rem 5rem;
   border-radius: 1rem;
   box-shadow: 0px 5px 15px grey;
   background-color: #1e1e24;
+}
+
+.container-3 {
+  width: 60vh;
+  height: 60vh;
+  padding: 5rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 15px grey;
+  background-color: #1e1e24;
+}
+
+.container-3 .info-4 {
+  color: #fff;
+  font-size: 1.5rem;
+  position: relative;
+  top: -2rem;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .container-2 .info-3 {
@@ -181,6 +191,20 @@ header {
   text-align: center;
   font-family: "Poppins";
   font-weight: 500;
+}
+
+.box-3 .icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.box-3 i {
+  display: inline-grid;
+  padding: 0.5rem;
+  position: relative;
+  /* right: -3.5rem; */
+  top: -1rem;
 }
 
 .box-2 .icons {
@@ -201,12 +225,34 @@ header {
   scale: 1.2;
 }
 
+.box-3 i:hover {
+  scale: 1.2;
+}
+.box-3 .details {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 14px;
+  position: relative;
+}
+
 .box-2 .details {
   color: #fff;
   text-align: center;
   font-family: "Poppins";
   font-size: 14px;
   position: relative;
+}
+.box-3 .name-language {
+  font-family: "Poppins";
+  font-weight: 500;
+  color: #fff;
+  bottom: 1.5rem;
+  display: flex;
+  gap: 1.2rem;
+  position: relative;
+  justify-content: space-evenly;
+  font-size: 1rem;
 }
 
 .box-2 .name-language {
