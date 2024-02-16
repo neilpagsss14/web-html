@@ -370,12 +370,10 @@ footer .column > a {
   .home-btn {
     column-gap: 2rem;
   }
-  footer
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (max-width: 48em) {
-  
 }
 
 /* Large devices such as laptops (1024px and up) */
@@ -387,14 +385,14 @@ footer .column > a {
   .navmenu {
     display: none;
   }
-  
+
   header {
     grid-template-columns: repeat(1, 1fr);
   }
   .socials-icons {
     grid-template-columns: repeat(1, 1fr);
   }
-  
+
   .features {
     display: flex;
     flex-direction: column;
@@ -414,7 +412,7 @@ footer .column > a {
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
- 
+
   .home-text {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -425,11 +423,10 @@ footer .column > a {
     grid-template-columns: repeat(1, 1fr);
   }
 
-   footer {
+  footer {
     grid-template-columns: 1fr;
     place-items: center;
   }
-
 }
 
 /* Largest devices such as desktops (1280px and up) */
