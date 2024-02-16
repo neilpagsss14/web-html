@@ -277,3 +277,23 @@ header {
   color: rgb(241, 85, 13);
   font-size: 3rem;
 }
+
+/* .icons {
+  color: aqua;
+  font-size: 3rem;
+} */
+
+.fa-react {
+  color: crimson;
+  font-size: 3rem;
+}
+
+.fa-php {
+  color: aqua;
+  font-size: 3rem;
+}
+
+.fa-laravel {
+  color: burlywood;
+  font-size: 3rem;
+}
