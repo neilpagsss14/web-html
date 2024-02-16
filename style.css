@@ -274,3 +274,43 @@ header {
   color: #f7f7f2;
   cursor: pointer;
 }
+
+footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 400px repeat(4, 1fr);
+  gap: 2rem;
+  margin: 2rem;
+}
+
+footer .column img {
+  max-width: 75%;
+  margin-bottom: 2rem;
+}
+
+footer .column p {
+  display: f;
+  color: #f7f7f2;
+  margin-bottom: 2rem;
+}
+
+footer .column h4 {
+  color: #1e1e24;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+footer .column > a {
+  display: block;
+  color: #1e1e24;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  text-align: center;
+}

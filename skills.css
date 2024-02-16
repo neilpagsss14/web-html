@@ -91,6 +91,7 @@ header {
 }
 
 .container .info-2 {
+  width: max-content;
   color: #f7f7f2;
   font-size: 1.5rem;
   position: relative;
