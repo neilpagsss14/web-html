@@ -249,17 +249,16 @@ header {
 } */
 
 .box-btn {
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 15px;
   color: #1e1e24;
   font-weight: 600;
   font-size: 18px;
-  border-color: transparent;
   width: -webkit-fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 .box-btn a:hover {
@@ -273,4 +272,5 @@ header {
 .box-btn:hover {
   background-color: #1e1e24;
   color: #f7f7f2;
+  cursor: pointer;
 }
