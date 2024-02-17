@@ -371,8 +371,12 @@ footer .column a {
   .home {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 0 0rem 0rem;
+    padding: 2rem 0 0 0;
     /* background-color: black; */
+  }
+  .home-img {
+    display: flex;
+    padding: 0 7rem;
   }
   .home-btn {
     display: flex;
