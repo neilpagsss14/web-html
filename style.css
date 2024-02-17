@@ -321,10 +321,16 @@ footer .column a {
   .home-btn {
     column-gap: 2rem;
   }
+  .socials-icons i {
+    display: none;
+  }
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (max-width: 48em) {
+  .socials-icons i {
+    display: none;
+  }
 }
 
 /* Large devices such as laptops (1024px and up) */
@@ -370,8 +376,15 @@ footer .column a {
   .home-img img {
     grid-template-columns: repeat(1, 1fr);
   }
-  .socials-icons i {
+  /* .socials-icons i {
     grid-template-columns: repeat(1, 1fr);
+  } */
+  .socials-icons i {
+    display: none;
+  }
+
+  .scroll-btn {
+    display: none;
   }
   .column p {
     display: relative;
