@@ -327,7 +327,11 @@ footer .column a {
   .home {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    padding: 2rem 0 2rem 0;
+    /* background-color: black; */
+  }
+  .home-img {
+    display: flex;
+    scale: 2.5;
   }
 }
 
