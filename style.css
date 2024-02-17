@@ -324,12 +324,22 @@ footer .column a {
   .socials-icons i {
     display: none;
   }
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0 0rem 0rem;
+  }
 }
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (max-width: 48em) {
   .socials-icons i {
     display: none;
+  }
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0 0rem 0rem;
   }
 }
 
@@ -359,13 +369,17 @@ footer .column a {
     grid-area: 1/1/1/2;
   }
   .home {
+    display: grid;
     grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 0 0rem 0rem;
+    /* background-color: black; */
   }
   .home-btn {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
+
   .features {
     grid-template-columns: repeat(2, 1fr);
   }
