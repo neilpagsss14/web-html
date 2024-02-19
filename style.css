@@ -354,6 +354,10 @@ footer .column a {
   .header {
     display: none;
   }
+  .container {
+    padding-top: 10rem;
+    /* border: #1e1e24 solid 3px; */
+  }
 }
 
 /* Large devices such as laptops (1024px and up) */
@@ -363,6 +367,9 @@ footer .column a {
     flex-direction: column;
   }
   .navmenu {
+    display: none;
+  }
+  .header {
     display: none;
   }
 
