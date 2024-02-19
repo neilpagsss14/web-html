@@ -148,11 +148,11 @@ header {
   transition: all 0.3s;
 }
 
-/* .btn:hover {
+.btn:hover {
   background: #f7f7f2;
   color: #1e1e24;
   transform: translateY(5px);
-} */
+}
 
 .socials-icons {
   position: absolute;
@@ -349,6 +349,10 @@ footer .column a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem 0 0rem 0rem;
+    /* background-color: black; */
+  }
+  .header {
+    display: none;
   }
 }
 
