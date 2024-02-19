@@ -10,7 +10,7 @@ body {
   background-color: #f7f7f2;
   color: #1e1e24;
   max-width: 100%;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
 }
 
 skills-body {
@@ -81,7 +81,7 @@ header {
   justify-content: space-evenly;
 }
 
-.container {
+.container-front {
   width: 60vh;
   height: 60vh;
   padding: 5rem 5rem;
@@ -90,7 +90,7 @@ header {
   background-color: #1e1e24;
 }
 
-.container .info-2 {
+.container-front .info-2 {
   width: max-content;
   color: #f7f7f2;
   font-size: 1.5rem;
@@ -113,6 +113,7 @@ header {
 }
 
 .box .name-language {
+  background-color: transparent;
   font-family: "Poppins" sans-serif;
   font-weight: 700;
   color: #f7f7f2;
@@ -125,12 +126,14 @@ header {
 }
 
 .box .icons {
+  background-color: transparent;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
 }
 
 .box .details {
+  background-color: transparent;
   color: #fff;
   text-align: center;
   font-family: "Poppins";
@@ -196,6 +199,7 @@ header {
 }
 
 .box-3 .icons {
+  background-color: transparent;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
@@ -210,6 +214,7 @@ header {
 }
 
 .box-2 .icons {
+  background-color: transparent;
   display: flex;
   justify-content: space-around;
   gap: 2rem;
@@ -231,6 +236,7 @@ header {
   scale: 1.2;
 }
 .box-3 .details {
+  background-color: transparent;
   color: #fff;
   text-align: center;
   font-family: "Poppins";
@@ -239,6 +245,7 @@ header {
 }
 
 .box-2 .details {
+  background-color: transparent;
   color: #fff;
   text-align: center;
   font-family: "Poppins";
@@ -246,6 +253,7 @@ header {
   position: relative;
 }
 .box-3 .name-language {
+  background-color: transparent;
   font-family: "Poppins";
   font-weight: 500;
   color: #fff;
@@ -258,6 +266,7 @@ header {
 }
 
 .box-2 .name-language {
+  background-color: transparent;
   font-family: "Poppins";
   font-weight: 500;
   color: #fff;

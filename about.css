@@ -10,7 +10,7 @@ body {
   background-color: #f7f7f2;
   color: #1e1e24;
   max-width: 100%;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
 }
 header {
   background-color: #41639f;
